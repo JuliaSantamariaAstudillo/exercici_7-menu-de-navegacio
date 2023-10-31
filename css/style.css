@@ -1,0 +1,40 @@
+* {
+    padding:0px;
+    margin: 0px;
+}
+
+#header {
+    margin: auto;
+    width: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav li a{
+    background-color:#9cbb80;
+    color: #5e403b;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: #89a66f;
+}
+
+.nav > li{
+    float:left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
